@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormNick">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Digite um nome de usuário"
+      android:textSize="25sp"
+      android:layout_gravity="center"
+      android:layout_marginTop="100dp"
+      />
+
+  <EditText
+      android:id="@+id/Edit_nick"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_nick"
+      android:padding="15dp"
+      android:maxLines="1"
+      android:inputType="textEmailAddress"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="20dp"/>
+  <Button
+      android:id="@+id/botao_cadastrar_nick"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/Confirmar"
+      android:padding="15dp"
+      android:layout_margin="20dp"/>
+
+</LinearLayout>

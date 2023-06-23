@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainQuiz"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="265dp">
+
+    <TextView
+        android:id="@+id/enunciadoTxt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="lorem iplum qwrqwyrqwgr"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/grupoBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/botao1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="lala"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp" />
+            <RadioButton
+                android:id="@+id/botao2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="lala"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp" />
+            <RadioButton
+                android:id="@+id/botao3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="lala"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp" />
+            <RadioButton
+                android:id="@+id/botao4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="lala"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp" />
+            <RadioButton
+                android:id="@+id/botao5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="lala"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/botaoConfirmar"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:text="Confirmar" />
+
+    <Button
+        android:id="@+id/botaoProximo"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:text="Próxima" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="titulo_form_cadastro">Cadastre-se</string>
+    <string name="titulo_form_login">Login</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_nick">Nick</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="text_sair">Sair</string>
+    <string name="comecar_quiz">Começar Quiz</string>
+    <string name="text_tabela">Tabela de pontuações</string>
+    <string name="hint_senha">Senha</string>
+    <string name="text_botao_cadastrar">Cadastrar</string>
+    <string name="text_botao_login">Login</string>
+    <string name="title_activity_main">Main</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
